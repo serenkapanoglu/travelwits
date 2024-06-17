@@ -1,0 +1,65 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.autocomplete {
+    border: 1px solid #ccc;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.autocomplete-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.filter-section {
+    margin-top: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-item {
+    margin: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}

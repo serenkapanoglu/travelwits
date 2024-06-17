@@ -1,0 +1,211 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-container {
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.dropdown-content label {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content label:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.filteredMovies {
+  margin-top: 20px;
+}
+
+.filterMovie {
+  list-style: none;
+  padding: 0;
+}
+
+.filterMovie li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filterMovie li:last-child {
+  border-bottom: none;
+}
+
+.movie-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.movie-category {
+  margin-left: 10px;
+  font-weight: normal;
+  color: #666;
+}
+
+.movie-rating {
+  margin-top: 5px;
+}
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-container {
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.dropdown-content label {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content label:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 230px;
+}
+
+.filteredMovies {
+  margin-top: 20px;
+}
+
+.filterMovie {
+  list-style: none;
+  padding: 0;
+  width: 320px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.filterMovie li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filterMovie li:last-child {
+  border-bottom: none;
+}
+
+.movie-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.movie-category {
+  margin-left: 10px;
+  font-weight: normal;
+  color: #666;
+}
+
+.movie-rating {
+  margin-top: 5px;
+}
